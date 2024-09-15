@@ -11,7 +11,7 @@
     - name: upgrade apt packages
       become: true
       apt:
-        upgrade: yes
+        upgrade: "yes"
         update_cache: yes
 
     # Check if reboot is required
